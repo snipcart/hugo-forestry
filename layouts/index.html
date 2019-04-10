@@ -8,8 +8,8 @@
     <h2>Cheese</h2>
     <p>An exclusive <strong>collection of handcrafted cheese</strong> for the hardcore cheese enthusiasts.</p>
   </div>
-  {{ range .Site.Data.products }}
-    {{ partial "product.html" . }}
+  {{ range where .Site.RegularPages "Section" "products"}}
+    {{ partial "product.html" .Params }}
   {{ end }}
 </main>
 
