@@ -1,0 +1,25 @@
+.promotional-message {
+  margin-bottom: 100px;
+  margin-top: 25px;
+  text-align: center;
+
+  h3 {
+    font-size: 24px;
+    line-height: normal;
+    text-align: center;
+    letter-spacing: 0.4em;
+    text-transform: uppercase;
+    margin: 0;
+  }
+
+  h2 {
+    font-size: 100px;
+    @include mobile { font-size: 75px; }
+    margin: 0;
+
+    background: linear-gradient(90deg, #FFB890 0%, #F75D5D 100%);
+    color:transparent;
+    -webkit-background-clip: text;
+    background-clip: text;
+  }
+}

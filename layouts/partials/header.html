@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel='shortcut icon' type='image/x-icon' href='/images/icons/favicon.ico' />
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
+  <script src="https://cdn.snipcart.com/scripts/2.0/snipcart.js" data-api-key="MzMxN2Y0ODMtOWNhMy00YzUzLWFiNTYtZjMwZTRkZDcxYzM4" id="snipcart"></script>
+  <link href="https://cdn.snipcart.com/themes/2.0/base/snipcart.min.css" rel="stylesheet" type="text/css" />
+  {{ $style := resources.Get "scss/main.scss" | resources.ToCSS | resources.Minify | resources.Fingerprint }}
+  <link rel="stylesheet" href="{{ $style.Permalink }}">
+  <title>CheeseCity</title>
+</head>
+<body>
+  <header class="header">
+    <a class="header__branding" href="/">
+      <img class="header__logo" src="/images/icons/cheese.svg" alt="cheese logo"> 
+      <h1 class="header__title">CheeseCity</h1>
+    </a>
+    <div class="header__cart">
+      <a href="#" class="snipcart-checkout" style="text-decoration: none;">
+        <div class="snipcart-summary">
+          <img src="/images/icons/cart.svg" alt="">
+          <span class="snipcart-total-price"></span>
+        </div>
+      </a>
+    </div>
+  </header>

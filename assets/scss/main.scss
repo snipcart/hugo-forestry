@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,600,700');
+
+// Utilities
+@import "./utilities/colors.scss";
+@import "./utilities/mixins.scss";
+
+// Components
+@import "./components/button.scss";
+@import "./components/promotional-message.scss";
+
+// Layouts
+@import "./layouts/header.scss";
+@import "./layouts/product.scss";
+@import "./layouts/footer.scss";
+
+* {
+  box-sizing: border-box;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+  color: $color-black;
+}
+
+html, body {
+  min-height: 100vh;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  @include smallerThanDesktop {
+    padding-right: 20px;
+    padding-left: 20px;
+  }
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.background-image {
+  position: absolute;
+  opacity: 0.02;
+  left: -10vw;
+  top: -10vh;
+  height: 75vh;
+  transform: rotate(20deg);
+  pointer-events: none;
+}

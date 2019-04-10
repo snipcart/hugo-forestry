@@ -1,0 +1,43 @@
+.header {
+  display: flex;
+  align-items: center;
+  max-width: 1000px;
+  width: 100%;
+  height: 100px;
+  margin-left: auto;
+  margin-right: auto;
+
+  &__branding {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    color: $color-black;
+    text-decoration: none;
+  }
+
+  &__logo {
+    height: 40px;
+    margin-right: 15px;
+  }
+
+  &__title {
+    margin: 0;
+    font-size: 24px;
+  }
+
+  &__cart {
+    margin-left: auto;
+    .snipcart-summary {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .snipcart-total-price {
+      color: $color-red;
+      font-weight: bold;
+      margin-left: 10px;
+    }
+  }
+}

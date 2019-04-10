@@ -1,0 +1,17 @@
+<div class="product">
+  <h2 class="product__name">{{ .name }}</h2>
+  <img class="product__image" src="{{ .image }}" alt="">
+  <p class="product__description">{{ .description }}</p>
+  <div class="product__button-container">
+    <div class="product__price">${{ .price }}</div>
+    <button
+      class="snipcart-add-item buy-button"
+      data-item-id="{{ .id }}"
+      data-item-name="{{ .name }}"
+      data-item-price="{{ .price }}"
+      data-item-url="{{ .url }}"
+      data-item-description="{{ .description }}">
+      Add to cart
+    </button>
+  </div>
+</div>
