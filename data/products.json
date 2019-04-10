@@ -1,0 +1,30 @@
+[{
+  "id": "GOUDA_WHEEL",
+  "name": "Gouda Wheel",
+  "price": 299.95,
+  "image": "/images/gouda.jpg",
+  "description": "Want to step up your cheese game? Try our mild, yellow Gouda Wheel. This cheese is made in the Netherlands with raw cow milk.",
+  "url": "http://snipcart-hugo-forestery.netlify.com"
+}, {
+  "id": "FARMHOUSE_CHEDDAR",
+  "name": "Farmhouse Cheddar",
+  "description": "Made out of highest graded ingredients, this cheese has been aged for three months and is sure you leave you with a sharp-tasting, natural taste.",
+  "price": 4.95,
+  "image": "/images/cheddar.jpg",
+  "url": "http://snipcart-hugo-forestery.netlify.com"
+},
+{
+  "id": "CAMEMBERT",
+  "name": "Camembert",
+  "price": 9.95,
+  "image": "/images/camembert.jpg",
+  "description": "Native from France, this cheese is soft, moist and creamy. It is similar to Brie, but with higher fat content. Best paired with a sweet, crispy biscuit.",
+  "url": "http://snipcart-hugo-forestry.netlify.com"
+}, {
+  "id": "BLUE_CHEESE",
+  "name": "Blue cheese",
+  "description": "This long-aged cheese made with Penicillium mould is sure to be one of the stinkiest and strong tasting cheese. It comes with one of the best marbling available on the market.",
+  "price": 12.95,
+  "image": "/images/blue.jpg",
+  "url": "http://snipcart-hugo-forestry.netlify.com"
+}]
