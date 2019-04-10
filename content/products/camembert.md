@@ -5,6 +5,7 @@ id = "CAMEMBERT"
 image = "/uploads/camembert.jpg"
 name = "Camembert"
 price = 9.95
-url = "snipcart-hugo-forestry.netlify.com"
+product_url = "https://snipcart-hugo-forestry.netlify.com"
+url = "/"
 
 +++

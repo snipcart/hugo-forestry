@@ -29,13 +29,13 @@ fields:
   name: image
   label: image
 - type: text
-  name: url
+  name: product_url
   label: url
   config:
     required: true
-  default: snipcart-hugo-forestry.netlify.com
+  default: https://snipcart-hugo-forestry.netlify.com
 pages:
+- content/products/farmhouse-cheddar.md
 - content/products/blue-cheese.md
 - content/products/camembert.md
-- content/products/farmhouse-cheddar.md
 - content/products/gouda-wheel.md
