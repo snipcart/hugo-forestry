@@ -1,0 +1,41 @@
+---
+label: product
+hide_body: true
+fields:
+- type: text
+  name: id
+  label: id
+  config:
+    required: true
+- type: text
+  name: name
+  label: name
+  config:
+    required: true
+- type: number
+  label: price
+  name: price
+  config:
+    required: true
+- type: textarea
+  name: description
+  label: description
+  config:
+    wysiwyg: false
+    schema:
+      format: markdown
+    required: true
+- type: file
+  name: image
+  label: image
+- type: text
+  name: url
+  label: url
+  config:
+    required: true
+  default: snipcart-hugo-forestry.netlify.com
+pages:
+- content/products/blue-cheese.md
+- content/products/camembert.md
+- content/products/farmhouse-cheddar.md
+- content/products/gouda-wheel.md
